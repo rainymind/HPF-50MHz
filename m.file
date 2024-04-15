@@ -1,0 +1,17 @@
+% Sampling frequency
+Fs = 1000; % Let's assume the sampling frequency is 1000 Hz
+
+% Cutoff frequency of the high-pass filter
+Fc = 50e6; % Cutoff frequency is 50 MHz
+
+% Filter order
+N = 4; % Let's assume the filter order is 4
+
+% Design the high-pass filter
+[b, a] = butter(N, Fc / (Fs / 2), 'high');
+
+% Plot the frequency response of the high-pass filter
+freqz(b, a, 1024, Fs);
+title('Frequency Response of High Pass Filter');
+xlabel('Frequency (Hz)');
+ylabel('Magnitude');
