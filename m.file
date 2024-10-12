@@ -1,4 +1,5 @@
-% Sampling frequency3200000000000
+% 3200000000000
+% Sampling frequency
 Fs = 1000; % Let's assume the sampling frequency is 1000 Hz
 
 % Cutoff frequency of the high-pass filter32
