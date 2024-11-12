@@ -1,4 +1,4 @@
-% 3200000000000
+% 0000000
 % Sampling frequency
 Fs = 1000; % Let's assume the sampling frequency is 1000 Hz
 
